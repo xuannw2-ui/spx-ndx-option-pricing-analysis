@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local dependency bundles and application caches
+.docx_deps/
+.pdf_deps/
+.matplotlib-cache/
+
+# Generated and private project artifacts
+outputs/
+answer/
+data/
+reference/
+OptionMetrics_SPX_NDX_*/
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+**/.DS_Store
+~$*
+
+# Logs and temporary files
+*.log
+*.tmp
